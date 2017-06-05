@@ -1,6 +1,8 @@
+# App Prestamos
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
+## How Ionic
 
 *This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
@@ -12,15 +14,32 @@ Take the name after `ionic2-starter-`, and that is the name of the template to b
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+cd app-prestamos
+$ ionic serve
 ```
 
-Then, to run it, cd into `myBlank` and run:
+## Things to know
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+### Sass Architecture
 
-Substitute ios for android if not on a Mac.
+* [Sass 7-1 Architecture](https://sass-guidelin.es/es/#arquitectura)
 
+This is the arechitecture we use at [Kubide](https://kubide.es/) in our Ionic projects.
+
+### CSS Guidelines
+
+* [Link to our CSS Guidelines version](https://github.com/Kubide/kubide-sass-architecture-and-styleguide/blob/master/CSS-Guidelines.md)
+
+### Sass Guidelines
+
+* [Link to our Sass Guidelines version](https://github.com/Kubide/kubide-sass-architecture-and-styleguide/blob/master/Sass-Guidelines.md)
+
+### Sass Linter
+
+* `.scss-lint.yml` is the configuration file we use at Kubide to make sure it works in your text editor of choice (I think you use Atom) so search about it
+
+To run the linter paste `.scss-lint.yml` in the root folder and replace `./stylesheets/` with the project's  [Sass 7-1 Architecture](https://github.com/Kubide/kubide-sass-architecture-and-styleguide/tree/master/sass-boilerplate) destination folder
+
+### SCSS Lint rules
+
+* [SCSS_Lint Configuration](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md)
