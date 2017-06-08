@@ -16,7 +16,10 @@ import { farewellPage} from '../pages/farewell/farewell';
     HomePage,
     PersonalDataPage,
     farewellPage,
+<<<<<<< HEAD
 
+=======
+>>>>>>> start new page to make form part
   ],
   imports: [
     BrowserModule,
