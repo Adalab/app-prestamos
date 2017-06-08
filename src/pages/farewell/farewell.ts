@@ -5,9 +5,9 @@ import { NavController } from 'ionic-angular';
   selector: 'page-farewell',
   templateUrl: 'farewell.html'
 
-  
+
 })
-export class HomePage {
+export class farewellPage {
 
   constructor(public navCtrl: NavController) {
 

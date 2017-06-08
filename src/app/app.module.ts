@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PersonalDataPage} from '../pages/personal-data/personal-data';
-import { farewellPage} from '../pages/personal-data/personal-data';
+import { farewellPage} from '../pages/farewell/farewell';
 
 
 @NgModule({
@@ -15,6 +15,8 @@ import { farewellPage} from '../pages/personal-data/personal-data';
     MyApp,
     HomePage,
     PersonalDataPage,
+    farewellPage,
+
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,7 @@ import { farewellPage} from '../pages/personal-data/personal-data';
     MyApp,
     HomePage,
     PersonalDataPage,
+    farewellPage,
   ],
   providers: [
     StatusBar,
