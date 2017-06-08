@@ -3,44 +3,47 @@
 // -----------------------------------------------------------------------------
 
 
-//
+
 // Colour Palette
 // This is the primary and secondary colour palettes as described in the styleguide
-//
+
 
 // Base
-$brand: #2931ab;
-$secondary: #3e48ff;
-$tertiary: #3e9cff;
-$hightlight: #b00ce8;
+$primary-color: #232e78;
+$secondary-color: #ffffff;
+$footer-color: #ffba3b;
+
+
+
 
 // Grey Scale
-$darkergrey: #333; // 80% Black
-$darkgrey: #767676; // Mid Grey
-$grey: #a8a8a8; // Light grey
-$lightgrey: #d9d9d9; // 15% Black
-$lightergrey: #f0f0f0; // 8% Black
-$white: #fff;
+// $darkergrey: #333; // 80% Black
+// $darkgrey: #767676; // Mid Grey
+// $grey: #a8a8a8; // Light grey
+// $lightgrey: #d9d9d9; // 15% Black
+// $lightergrey: #f0f0f0; // 8% Black
+
 
 // Functional colours
-$minus: #f00;
-$plus: #349651;
+// $minus: #f00;
+// $plus: #349651;
+$info-color:#19679b;
 
 // Social Networks
-$fb: rgb(59, 89, 182);
-$tw: rgb(64, 153, 255);
-$googleplus: rgb(221, 75, 57);
-$pinterest: rgb(203, 32, 39);
-$skype: rgb(18, 165, 244);
-$spotify: rgb(129, 183, 26);
-$instagram: #4e433c;
-$tumblr: #2b4964;
-$vimeo: #86b32d;
-$soundcloud: #f76600;
-$youtube: #f33;
-$linkedin: #4875b4;
-$flickr: #fe0883;
-$foursquare: #8fd400;
+// $fb: rgb(59, 89, 182);
+// $tw: rgb(64, 153, 255);
+// $googleplus: rgb(221, 75, 57);
+// $pinterest: rgb(203, 32, 39);
+// $skype: rgb(18, 165, 244);
+// $spotify: rgb(129, 183, 26);
+// $instagram: #4e433c;
+// $tumblr: #2b4964;
+// $vimeo: #86b32d;
+// $soundcloud: #f76600;
+// $youtube: #f33;
+// $linkedin: #4875b4;
+// $flickr: #fe0883;
+// $foursquare: #8fd400;
 
 
 
@@ -53,7 +56,7 @@ $foursquare: #8fd400;
 // Mobile - (≥768px)
 // Tablet - (≥992px)
 // Desktop - (≥1200px)
-//
+
 $breakpoints: (
   'xs-mobile': (max-width: 48em),
   'mobile': (min-width: 48em),
