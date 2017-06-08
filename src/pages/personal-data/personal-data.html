@@ -1,11 +1,16 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Datos Personales
-    </ion-title>
-  </ion-navbar>
+<ion-header class="header-personal-data">
+  <ion-navbar class="header-personal-data">
+
+</ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <p>Si tenéis dudas podéis acudir a la <a href="http://ionicframework.com/docs/v2">documentación</a> de Ionic.</p>
+<ion-content class="background-personal-data" padding>
+
 </ion-content>
+
+<ion-footer>
+      <button class="footer" ion-button (click)="goToPersonalDataPage()" icon-rightcolor="royal">
+        <p class="txt-sm">Continue</p>
+        <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
+      </button>
+</ion-footer>

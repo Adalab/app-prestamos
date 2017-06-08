@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'personal-data',
+  selector: 'page-personal-data',
   templateUrl: 'personal-data.html'
 })
 
