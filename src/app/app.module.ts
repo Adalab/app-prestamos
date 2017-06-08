@@ -16,10 +16,7 @@ import { farewellPage} from '../pages/farewell/farewell';
     HomePage,
     PersonalDataPage,
     farewellPage,
-<<<<<<< HEAD
 
-=======
->>>>>>> start new page to make form part
   ],
   imports: [
     BrowserModule,
@@ -35,7 +32,7 @@ import { farewellPage} from '../pages/farewell/farewell';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
-export class AppModule {}
+export class AppModule { }

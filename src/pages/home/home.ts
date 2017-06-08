@@ -11,7 +11,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-goToPersonalDataPage(){
-  this.navCtrl.push(PersonalDataPage)
-}
+  goToPersonalDataPage() {
+    this.navCtrl.push(PersonalDataPage)
+  }
 }
