@@ -7,7 +7,7 @@ import { NavController } from 'ionic-angular';
 
 
 })
-export class farewellPage {
+export class FarewellPage {
 
   constructor(public navCtrl: NavController) {
 

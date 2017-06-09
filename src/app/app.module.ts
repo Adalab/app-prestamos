@@ -7,7 +7,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PersonalDataPage} from '../pages/personal-data/personal-data';
-import { farewellPage} from '../pages/farewell/farewell';
+import { PersonalDataValidationPage } from '../pages/personal-data-validation/personal-data-validation';
+import { FarewellPage} from '../pages/farewell/farewell';
+
 
 
 @NgModule({
@@ -15,7 +17,8 @@ import { farewellPage} from '../pages/farewell/farewell';
     MyApp,
     HomePage,
     PersonalDataPage,
-    farewellPage,
+    PersonalDataValidationPage,
+    FarewellPage,
 
   ],
   imports: [
@@ -27,7 +30,8 @@ import { farewellPage} from '../pages/farewell/farewell';
     MyApp,
     HomePage,
     PersonalDataPage,
-    farewellPage,
+    PersonalDataValidationPage,
+    FarewellPage,
   ],
   providers: [
     StatusBar,
