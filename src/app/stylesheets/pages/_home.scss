@@ -11,18 +11,24 @@
 .txt-lg{
   color: $secondary-color;
   font-size: 32px;
+  position: relative;
+  top: 50px;
   padding-top: 20px;
 }
 
 .txt-md{
   color: $secondary-color;
   font-size: 20px;
+  position: relative;
+  bottom: 90px;
   padding-bottom: 10px;
 }
 
 .txt-xs{
   color: $secondary-color;
   font-size: 12px;
+  position: relative;
+  bottom: -10px;
   padding-top: 30px;
 }
 
@@ -36,9 +42,17 @@
   display: flex;
   justify-content: flex-end;
 }
+
 .footer{
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  // background-color: $footer-color;
+
+    ion-footer:hover{
+      text-decoration: none;
+      background-color: $footer-color;
+    }
   background-color: $footer-color;
   text-align: center;
   // justify-content: center;
