@@ -11,16 +11,22 @@
 .txt-lg{
   color: $secondary-color;
   font-size: 32px;
+  position: relative;
+  top: 50px;
 }
 
 .txt-md{
   color: $secondary-color;
   font-size: 20px;
+  position: relative;
+  bottom: 90px;
 }
 
 .txt-xs{
   color: $secondary-color;
   font-size: 12px;
+  position: relative;
+  bottom: -10px;
 }
 
 .container-logo{
@@ -33,8 +39,15 @@
   display: flex;
   justify-content: flex-end;
 }
+
 .footer{
   display: flex;
   flex-direction: column;
-  background-color: $footer-color;
+  justify-content: flex-end;
+  // background-color: $footer-color;
+
+    ion-footer:hover{
+      text-decoration: none;
+      background-color: $footer-color;
+    }
 }
