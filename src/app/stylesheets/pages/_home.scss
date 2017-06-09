@@ -11,16 +11,19 @@
 .txt-lg{
   color: $secondary-color;
   font-size: 32px;
+  padding-top: 20px;
 }
 
 .txt-md{
   color: $secondary-color;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .txt-xs{
   color: $secondary-color;
   font-size: 12px;
+  padding-top: 30px;
 }
 
 .container-logo{
@@ -37,4 +40,8 @@
   display: flex;
   flex-direction: column;
   background-color: $footer-color;
+  text-align: center;
+  // justify-content: center;
+  // text-decoration: none;
+  // border: none;
 }
