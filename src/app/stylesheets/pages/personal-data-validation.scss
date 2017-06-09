@@ -1,0 +1,49 @@
+.header-personal-data{
+  background-color: $primary-color;
+}
+.txt-lg-black{
+  color: $primaryfont;
+}
+
+.form-new-process{
+  display: flex;
+}
+.container-form-new-process{
+  width: 50%;
+}
+.container-merchant{
+  width: 50%;
+}
+
+.container-avatar{
+  display: flex;
+
+}
+.avatar{
+  border-radius: 3em;
+}
+
+.container-avatar-info{
+  margin-left: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container-see-more-deatails{
+  display: flex;
+  align-items: flex-end;
+  padding-left: 2em;
+}
+.see-more-deatails{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.ios-information-circle{
+  padding-right: .5em;
+  color: #19679b;
+  width: 20%;
+}
+.txt-xs-form{
+  font-size: 12px;
+}

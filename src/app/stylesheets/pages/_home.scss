@@ -13,6 +13,7 @@
   font-size: 32px;
   position: relative;
   top: 50px;
+  padding-top: 20px;
 }
 
 .txt-md{
@@ -20,6 +21,7 @@
   font-size: 20px;
   position: relative;
   bottom: 90px;
+  padding-bottom: 10px;
 }
 
 .txt-xs{
@@ -27,6 +29,7 @@
   font-size: 12px;
   position: relative;
   bottom: -10px;
+  padding-top: 30px;
 }
 
 .container-logo{
@@ -50,4 +53,9 @@
       text-decoration: none;
       background-color: $footer-color;
     }
+  background-color: $footer-color;
+  text-align: center;
+  // justify-content: center;
+  // text-decoration: none;
+  // border: none;
 }
