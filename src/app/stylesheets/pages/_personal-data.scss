@@ -5,11 +5,26 @@
 
 .background-personal-data {
   background-color: $secondary-color;
+  display: flex;
 }
 
+.txtlg-black{
+  color: $primaryfont;
+}
 .container-logo-header {
   width: 5em;
 }
-// // .form-new-process{
-// //   flex-direction: row;
-// // }
+.form-new-process{
+  display: flex;
+}
+
+.padding-form{
+  padding: 30px;
+}
+.form-merchant-info{
+  width: 50%;
+}
+.card-subtitle{
+  padding: 50px;
+  text-align: justify;
+}
