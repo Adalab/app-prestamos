@@ -17,7 +17,6 @@
 
 .container-avatar{
   display: flex;
-
 }
 .avatar{
   border-radius: 3em;
@@ -46,4 +45,13 @@
 }
 .txt-xs-form{
   font-size: 12px;
+}
+.container-modal{
+  background-color: $primary-color-transparent;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container-modal-info{
+  background-color: $secondary-color;
+  width: 50%;
 }
