@@ -1,3 +1,14 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.footer {
+  background-color: $footer-color;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+
+  ion-footer:hover {
+    background-color: $footer-color;
+    text-decoration: none;
+    }
+}

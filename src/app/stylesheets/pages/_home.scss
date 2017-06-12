@@ -8,49 +8,8 @@
   text-align: center;
 }
 
-.txt-lg {
-  color: $secondary-color;
-  font-size: 32px;
-  padding-top: 20px;
-  position: relative;
-  top: 50px;
-}
-
-.txt-md {
-  bottom: 90px;
-  color: $secondary-color;
-  font-size: 20px;
-  padding-bottom: 10px;
-  position: relative;
-}
-
-.txt-xs {
-  bottom: -10px;
-  color: $secondary-color;
-  font-size: 12px;
-  padding-top: 30px;
-  position: relative;
-}
-
 .container-logo {
   margin-left: auto;
   margin-right: auto;
   width: 40em;
-}
-
-.arrow-forward {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.footer {
-  background-color: $footer-color;
-  display: flex;
-  justify-content: flex-end;
-  text-align: center;
-
-  ion-footer:hover {
-    background-color: $footer-color;
-    text-decoration: none;
-    }
 }

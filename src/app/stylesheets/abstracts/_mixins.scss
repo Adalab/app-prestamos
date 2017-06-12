@@ -1,3 +1,6 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
+@mixin fontdef-woff($font-path, $font-name, $font-version:'1.0.0', $font-type:'Regular') {
+  src: url('#{$font-path}/#{$font-type}/#{$font-name}-#{$font-type}.woff2?v=#{$font-version}') format('woff2'), url('#{$font-path}/#{$font-type}/#{$font-name}-#{$font-type}.woff?v=#{$font-version}') format('woff');
+}

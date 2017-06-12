@@ -1,3 +1,38 @@
 // -----------------------------------------------------------------------------
 // This file contains typography style for copy text
 // -----------------------------------------------------------------------------
+.txt-lg-black {
+  color: $primaryfont;
+}
+
+.txt-xs-form {
+  font-size: 12px;
+}
+
+.txtlg-black {
+  color: $primaryfont;
+}
+
+.txt-lg {
+  color: $secondary-color;
+  font-size: 32px;
+  padding-top: 20px;
+  position: relative;
+  top: 50px;
+}
+
+.txt-xs {
+  bottom: -10px;
+  color: $secondary-color;
+  font-size: 12px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.txt-md {
+  bottom: 90px;
+  color: $secondary-color;
+  font-size: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}

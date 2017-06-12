@@ -1,3 +1,56 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+/* Light */
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'Light');
+  font-weight: 300;
+  font-style: normal;
+}
+/* Light */
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'ThinItalic');
+  font-weight: 100;
+  font-style: italic;
+}
+/* Regular */
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'Regular');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'Regular');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Italic */
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'Italic');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'Italic');
+  font-weight: normal;
+  font-style: italic;
+}
+/* Bold */
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'Bold');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef-woff($font-path, $font-name, $font-version, 'Bold');
+  font-weight: bold;
+  font-style: normal;
+}
