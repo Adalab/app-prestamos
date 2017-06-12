@@ -2,60 +2,55 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
-.content{
+.content {
+  background-color: $primary-color;
   display: flex;
   text-align: center;
-  background-color: $primary-color;
 }
 
-.txt-lg{
+.txt-lg {
   color: $secondary-color;
   font-size: 32px;
+  padding-top: 20px;
   position: relative;
   top: 50px;
-  padding-top: 20px;
 }
 
-.txt-md{
+.txt-md {
+  bottom: 90px;
   color: $secondary-color;
   font-size: 20px;
-  position: relative;
-  bottom: 90px;
   padding-bottom: 10px;
+  position: relative;
 }
 
-.txt-xs{
+.txt-xs {
+  bottom: -10px;
   color: $secondary-color;
   font-size: 12px;
-  position: relative;
-  bottom: -10px;
   padding-top: 30px;
+  position: relative;
 }
 
-.container-logo{
+.container-logo {
   margin-left: auto;
   margin-right: auto;
   width: 40em;
 }
 
-.arrow-forward{
+.arrow-forward {
   display: flex;
   justify-content: flex-end;
 }
 
-.footer{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  // background-color: $footer-color;
-
-    ion-footer:hover{
-      text-decoration: none;
-      background-color: $footer-color;
-    }
+.footer {
   background-color: $footer-color;
+  display: flex;
+  justify-content: flex-end;
   text-align: center;
-  // justify-content: center;
-  // text-decoration: none;
-  // border: none;
+
+  ion-footer:hover {
+    background-color: $footer-color;
+    text-decoration: none;
+    }
 }

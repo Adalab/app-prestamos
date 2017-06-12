@@ -1,57 +1,66 @@
-.header-personal-data{
+.header-personal-data {
   background-color: $primary-color;
 }
-.txt-lg-black{
+
+.txt-lg-black {
   color: $primaryfont;
 }
 
-.form-new-process{
+.form-new-process {
   display: flex;
 }
-.container-form-new-process{
-  width: 50%;
-}
-.container-merchant{
+
+.container-form-new-process {
   width: 50%;
 }
 
-.container-avatar{
+.container-merchant {
+  width: 50%;
+}
+
+.container-avatar {
   display: flex;
 }
-.avatar{
+
+.avatar {
   border-radius: 3em;
 }
 
-.container-avatar-info{
+.container-avatar-info {
+  margin-bottom: auto;
   margin-left: 1em;
   margin-top: auto;
-  margin-bottom: auto;
 }
 
-.container-see-more-deatails{
-  display: flex;
+.container-see-more-deatails {
   align-items: flex-end;
+  display: flex;
   padding-left: 2em;
 }
-.see-more-deatails{
+
+.see-more-deatails {
+  align-items: flex-end;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
 }
-.ios-information-circle{
-  padding-right: .5em;
-  color: #19679b;
+
+.ios-information-circle {
+  color: $info-color;
+  padding-right: 0.5em;
   width: 20%;
 }
-.txt-xs-form{
+
+.txt-xs-form {
   font-size: 12px;
 }
-.container-modal{
+
+.container-modal {
   background-color: $primary-color-transparent;
   display: flex;
   flex-direction: row-reverse;
 }
-.container-modal-info{
+
+.container-modal-info {
   background-color: $secondary-color;
   width: 50%;
 }
