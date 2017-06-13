@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FarewellPage} from '../farewell/farewell';
 import { NavController } from 'ionic-angular';
+import { ModalController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-personal-data-validation',
@@ -8,26 +9,28 @@ import { NavController } from 'ionic-angular';
 })
 export class PersonalDataValidationPage {
 
-  constructor(public navCtrl: NavController) {
-
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
   }
+
   goToFarewellPage() {
     this.navCtrl.push(FarewellPage)
   }
+
+  ProfileModal() {
+     let profileModal = this.modalCtrl.create(Profile, { userId: 8675309 });
+     profileModal.present();
+   }
 }
 
-//modal
+@Component({
+  selector: 'modal-profile',
+  templateUrl: 'personal-data-validation.html'
+})
 
-function modal() {
-$scope.openModal = function(){
-    $scope.modal.show();
-};
+export class Profile {
 
-$scope.closeModal = function(){
-    $scope.modal.hide();
-};
+ constructor(params: NavParams) {
+   console.log('UserId', params.get('userId'));
+ }
 
-$scope.$on('$destroy', function() {
-    $scope.modal.remove();
-});
 }

@@ -1,9 +1,9 @@
-<html ng-app>
+
 <ion-header class="header-personal-data">
   <ion-navbar class="header-personal-data"></ion-navbar>
 </ion-header>
 
-<ion-content ng-controller="modal" class="background-personal-data" padding>
+<ion-content class="background-personal-data" padding>
 
   <div class="form-new-process padding-form">
 
@@ -60,7 +60,7 @@
         <ion-list>
           <ion-item>
             <ion-label stacked>Step 1
-              <ion-icon ng-click="openModal()" class="ios-information-circle open-modal" ng-name="ios-information-circle"></ion-icon>
+              <ion-icon class="ios-information-circle open-modal" name="ios-information-circle"></ion-icon>
             </ion-label>
             <ion-input type="text"></ion-input>
           </ion-item>
@@ -87,17 +87,18 @@
         </ion-list>
       </div>
     </div>
-  </div>
 
-    <div class="container-modal">
-      <div class="container-modal-info">
-        <ion-icon ng-click="closeModal()" class="ios-close close-modal" ng-name="ios-close"></ion-icon>
-        <h2>Details Information</h2>
-        <ion-icon  class="ios-information-circle " name="ios-information-circle" ng-click = "closeModal()"></ion-icon>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+  <div (click)="profileModal()"class="container-modal modal-wrapper">
+    <div class="container-modal-info" "sample-modal-page">
+      <ion-icon class="ios-close" name="ios-close"></ion-icon>
+      <h2>Details Information</h2>
+      <ion-icon  class="ios-information-circle " name="ios-information-circle" ></ion-icon>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
     </div>
+  </div>
 
 </ion-content>
 <ion-footer>
@@ -108,4 +109,3 @@
     <ion-icon class="arrow-forward" name="ios-arrow-forward"></ion-icon>
   </button>
 </ion-footer>
-</html>

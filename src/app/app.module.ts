@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PersonalDataPage} from '../pages/personal-data/personal-data';
-import { PersonalDataValidationPage } from '../pages/personal-data-validation/personal-data-validation';
+import { PersonalDataValidationPage, Profile } from '../pages/personal-data-validation/personal-data-validation';
 import { FarewellPage} from '../pages/farewell/farewell';
 
 
@@ -19,7 +19,7 @@ import { FarewellPage} from '../pages/farewell/farewell';
     PersonalDataPage,
     PersonalDataValidationPage,
     FarewellPage,
-
+    Profile,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +32,7 @@ import { FarewellPage} from '../pages/farewell/farewell';
     PersonalDataPage,
     PersonalDataValidationPage,
     FarewellPage,
+    Profile,
   ],
   providers: [
     StatusBar,
