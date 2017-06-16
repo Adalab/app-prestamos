@@ -1,4 +1,37 @@
-.modal {
+
+.container-modal-info {
+  background-color: $secondary-color;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  h2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+ion-backdrop {
   background-color: $primary-color-transparent;
-  
+}
+
+.modal {
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+.scroll-content {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
 }

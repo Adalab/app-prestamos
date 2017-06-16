@@ -7,6 +7,13 @@
 
 .txt-xs-form {
   font-size: 12px;
+  font-weight: lighter;
+}
+
+.txt-xs-black {
+  color: black;
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 .txtlg-black {
@@ -15,7 +22,7 @@
 
 .txt-lg {
   color: $secondary-color;
-  font-size: 32px;
+  font-size: 30px;
   padding-top: 20px;
   position: relative;
   top: 50px;
@@ -24,13 +31,14 @@
 .txt-xs {
   color: $secondary-color;
   font-size: 12px;
-  position: relative;
+  font-weight: lighter;
 }
 
 .txt-md {
-  bottom: 90px;
+  // bottom: 90px;
   color: $secondary-color;
   font-size: 20px;
-  padding-bottom: 10px;
-  position: relative;
+  // padding-bottom: 10px;
+  font-weight: lighter;
+
 }

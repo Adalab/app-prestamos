@@ -1,14 +1,14 @@
-.header-personal-data {
-  background-color: $primary-color;
-}
-
+// .header-personal-data {
+//   background-color: $primary-color;
+// }
+//
 .form-new-process {
   display: flex;
 }
 
-// .container-form-new-process {
-//   width: 50%;
-// }
+.container-form-new-process {
+  width: 50%;
+}
 
 .container-merchant {
   width: 50%;
@@ -45,14 +45,6 @@
   padding-right: 0.5em;
   width: 20%;
 }
-
-.container-modal {
-  background-color: $primary-color-transparent;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.container-modal-info {
+.background-personal-data{
   background-color: $secondary-color;
-  width: 50%;
 }

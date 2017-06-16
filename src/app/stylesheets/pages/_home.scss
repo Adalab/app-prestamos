@@ -8,6 +8,23 @@
   text-align: center;
 }
 
+.container-introduction {
+  height: 50%;
+
+  txt-md {
+    align-items: flex-start;
+    margin-bottom: -30px;
+    padding: 0;
+    position: absolute;
+  }
+
+  txt-xs {
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: -1em;
+  }
+}
+
 .container-logo {
   margin-left: auto;
   margin-right: auto;
