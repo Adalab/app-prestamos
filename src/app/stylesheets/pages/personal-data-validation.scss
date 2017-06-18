@@ -1,25 +1,13 @@
-// .header-personal-data {
-//   background-color: $primary-color;
-// }
-//
-.form-new-process {
-  display: flex;
+.avatar {
+  border-radius: 3em;
 }
 
-.container-form-new-process {
-  width: 50%;
-}
-
-.container-merchant {
-  width: 50%;
+.background-personal-data {
+  background-color: $secondary-color;
 }
 
 .container-avatar {
   display: flex;
-}
-
-.avatar {
-  border-radius: 3em;
 }
 
 .container-avatar-info {
@@ -28,23 +16,72 @@
   margin-top: auto;
 }
 
+.container-form-new-process {
+  padding-right: $general-padding;
+  width: 50%;
+}
+
+.container-merchant {
+  padding-right: $general-padding;
+  width: 50%;
+}
+
 .container-see-more-deatails {
-  align-items: flex-end;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
   padding-left: 2em;
+
+  .button-md {
+    background-color: $transparent;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    margin: 0;
+    padding: 0;
+  }
+
+  .button-md:hover:not(.disable-hover) {
+    background-color: $transparent;
+  }
+}
+
+.form-new-process {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.imput-merchant-name {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  .button-md {
+    background-color: $transparent;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .button-md:hover:not(.disable-hover) {
+    background-color: $transparent;
+  }
+
+  .ios-checkmark {
+    color: $secondary-color;
+  }
+
+  .ios-information-cicle {
+    color: $info-color;
+  }
 }
 
 .see-more-deatails {
   align-items: flex-end;
   display: flex;
   justify-content: flex-end;
-}
-
-.ios-information-circle {
-  color: $info-color;
-  padding-right: 0.5em;
-  width: 20%;
-}
-.background-personal-data{
-  background-color: $secondary-color;
 }

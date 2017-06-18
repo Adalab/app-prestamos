@@ -3,6 +3,13 @@
 // -----------------------------------------------------------------------------
 
 .header-personal-data {
-  height: 80px;
   background-color: $primary-color;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+}
+
+.logo-header {
+  padding: 1em;
+  width: 10em;
 }

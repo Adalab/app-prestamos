@@ -7,31 +7,47 @@
 
   h2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    padding-bottom: 87px;
   }
 }
 
-ion-backdrop {
-  background-color: $primary-color-transparent;
+.container-more-deatails {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  p {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+  }
+
+  ion-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 $general-padding;
+    padding: 0;
+  }
 }
 
 .modal {
   margin: 0;
   max-width: 100%;
   padding: 0;
-}
 
-.scroll-content {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    z-index: 1;
-    display: block;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    will-change: scroll-position;
-    contain: size style layout;
+  .button-md:hover:not(.disable-hover) {
+    background-color: $transparent;
+  }
+
+  .button-md {
+    background-color: $transparent;
+    color: $footer-color;
+  }
+
+  .scroll-content {
+    background-color: $secondary-color;
+  }
 }

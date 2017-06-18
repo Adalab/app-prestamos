@@ -1,30 +1,33 @@
-.form-new-process {
-  display: flex;
-}
-
-.padding-form {
-  padding: 30px;
-  width: 50%;
-}
-
-.form-merchant-info {
-  width: 50%;
-}
-
-.title-new-process {
-  margin-right: 127px;
-}
-
 .card-subtitle {
   height: 90%;
   padding: 50px;
 
   p {
-  text-align: justify;
+    text-align: justify;
+  }
 }
 
+.form-new-process {
+  display: flex;
 }
 
 .form-merchant-info {
-  width: 419px;
+  padding: $general-padding;
+  width: 50%;
+}
+
+.padding-form {
+  padding-left: $general-padding;
+  width: 50%;
+}
+
+.star-process {
+  ion-content {
+    align-items: flex-start;
+    display: flex;
+  }
+}
+
+.title-new-process {
+  margin-right: 100px;
 }

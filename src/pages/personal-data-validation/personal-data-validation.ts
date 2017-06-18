@@ -20,4 +20,10 @@ export class PersonalDataValidationPage {
     myModal.present();
 
   }
+  
+  openModalInfo() {
+    const myModal: Modal = this.modal.create('ModalPage');
+    myModal.present();
+
+  }
 }

@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // This file contains typography style for copy text
 // -----------------------------------------------------------------------------
+
 .txt-lg-black {
   color: $primaryfont;
 }
@@ -11,7 +12,7 @@
 }
 
 .txt-xs-black {
-  color: black;
+  color: $primaryfont;
   font-size: 12px;
   font-weight: lighter;
 }
@@ -40,5 +41,4 @@
   font-size: 20px;
   // padding-bottom: 10px;
   font-weight: lighter;
-
 }

@@ -2,23 +2,6 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 
-.footer {
-  background-color: $footer-color;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 60px;
-
-  .button-md:hover:not(.disable-hover) {
-    background-color: $footer-color;
-  }
-
-  p {
-    flex-grow: 1;
-    flex-shrink: 1;
-  }
-}
-
 .button-md {
   background-color: $footer-color;
   border-radius: 2px;
@@ -31,4 +14,21 @@
   padding: 0 1.1em;
   text-transform: uppercase;
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer {
+  background-color: $footer-color;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 100%;
+
+  .button-md:hover:not(.disable-hover) {
+    background-color: $footer-color;
+  }
+
+  p {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
 }
