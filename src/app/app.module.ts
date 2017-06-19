@@ -20,7 +20,7 @@ import { FarewellPage} from '../pages/farewell/farewell';
     PersonalDataPage,
     PersonalDataValidationPage,
     FarewellPage,
-
+    Profile,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +33,7 @@ import { FarewellPage} from '../pages/farewell/farewell';
     PersonalDataPage,
     PersonalDataValidationPage,
     FarewellPage,
+    Profile,
   ],
   providers: [
     StatusBar,
