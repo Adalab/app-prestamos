@@ -35,7 +35,7 @@
 
 .modal {
   margin: 0;
-  max-width: 100%;
+  max-width: 200em;
   padding: 0;
 
   .button-md:hover:not(.disable-hover) {
@@ -49,5 +49,15 @@
 
   .scroll-content {
     background-color: $secondary-color;
+  }
+}
+
+.modal-wrapper {
+  width: 200%;
+  top:-50%;
+  left: 72.7%;
+
+  ion-page{
+    width: 200%;
   }
 }

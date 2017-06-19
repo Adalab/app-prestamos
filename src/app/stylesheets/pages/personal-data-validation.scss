@@ -28,9 +28,9 @@
 
 .container-see-more-deatails {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-  padding-left: 2em;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 0.5em;
 
   .button-md {
     background-color: $transparent;
@@ -80,8 +80,34 @@
   }
 }
 
+.item-form-inline {
+  ion-icon {
+    width: 25%;
+}
+
+  div {
+    width: 50%;
+  }
+}
+
 .see-more-deatails {
   align-items: flex-end;
   display: flex;
   justify-content: flex-end;
+}
+
+.modal-wrapper {
+  border: 0;
+  bottom: 0;
+  height: 50vh;
+  left: 0;
+  margin: auto;
+  max-width: 280px;
+  overflow: hidden;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80vw;
+
 }

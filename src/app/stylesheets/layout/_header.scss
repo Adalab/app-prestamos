@@ -2,14 +2,40 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
+.back-button.show-back-button {
+  display: none;
+}
+
+.bar-header {
+  background-color: $footer-color;
+  width: 20em;
+}
+
+.container-logo-header {
+  width: 5em;
+}
+
 .header-personal-data {
   background-color: $primary-color;
   display: flex;
   height: 80px;
   justify-content: center;
+
+  icon-button {
+    display: none;
+  }
+
+  button {
+    background-color: $footer-color;
+  }
+
 }
 
 .logo-header {
   padding: 1em;
   width: 10em;
+}
+
+.toolbar-background {
+  background-color: $primary-color;
 }

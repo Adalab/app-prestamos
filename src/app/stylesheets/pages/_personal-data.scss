@@ -22,9 +22,16 @@
 }
 
 .star-process {
-  ion-content {
-    align-items: flex-start;
-    display: flex;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  p {
+    width: 70%;
+  }
+
+  ion-icon {
+    width: 30%;
   }
 }
 

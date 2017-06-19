@@ -20,7 +20,6 @@ import { FarewellPage} from '../pages/farewell/farewell';
     PersonalDataPage,
     PersonalDataValidationPage,
     FarewellPage,
-
   ],
   imports: [
     BrowserModule,
