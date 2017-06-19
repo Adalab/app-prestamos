@@ -7,7 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PersonalDataPage} from '../pages/personal-data/personal-data';
-import { PersonalDataValidationPage, Profile } from '../pages/personal-data-validation/personal-data-validation';
+import { PersonalDataValidationPage } from '../pages/personal-data-validation/personal-data-validation';
+import { ModalPage} from '../pages/modal/modal';
 import { FarewellPage} from '../pages/farewell/farewell';
 
 
