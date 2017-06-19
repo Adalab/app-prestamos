@@ -6,9 +6,9 @@
   display: flex;
 }
 
-.container-form-new-process {
-  width: 50%;
-}
+// .container-form-new-process {
+//   width: 50%;
+// }
 
 .container-merchant {
   width: 50%;
@@ -55,4 +55,20 @@
 .container-modal-info {
   background-color: $secondary-color;
   width: 50%;
+}
+
+.modal-wrapper {
+  border: 0;
+  bottom: 0;
+  height: 50vh;
+  left: 0;
+  margin: auto;
+  max-width: 280px;
+  overflow: hidden;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80vw;
+
 }

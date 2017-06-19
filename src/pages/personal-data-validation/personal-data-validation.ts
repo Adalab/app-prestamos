@@ -8,12 +8,13 @@ import { Modal, NavController, ModalController } from 'ionic-angular';
 })
 export class PersonalDataValidationPage {
 
-  constructor(public navCtrl: NavController, private modal: ModalController) {
-
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
   }
+
   goToFarewellPage() {
     this.navCtrl.push(FarewellPage)
   }
+
 
   openModal() {
     const myModal: Modal = this.modal.create('ModalPage');
