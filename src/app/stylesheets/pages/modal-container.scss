@@ -26,6 +26,7 @@
   }
 
   ion-icon {
+    color: $info-color;
     display: flex;
     justify-content: flex-end;
     margin: 0 $general-padding;
@@ -35,7 +36,6 @@
 
 .modal {
   margin: 0;
-  max-width: 200em;
   padding: 0;
 
   .button-md:hover:not(.disable-hover) {
@@ -49,15 +49,32 @@
 
   .scroll-content {
     background-color: $secondary-color;
+    
+  .ios-close {
+    color: $footer-color;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2em;
   }
 }
 
 .modal-wrapper {
-  width: 200%;
-  top:-50%;
-  left: 72.7%;
+  border: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 50%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
 
-  ion-page{
+  ion-page {
     width: 200%;
   }
+}
+
+ion-backdrop {
+  background-color: $primary-color-transparent;
 }
