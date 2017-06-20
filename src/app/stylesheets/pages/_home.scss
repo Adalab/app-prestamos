@@ -8,22 +8,21 @@
   text-align: center;
 }
 
-.container-introduction {
 
-  txt-md {
-    align-items: flex-start;
-    position: relative;
-    top: -30px;
+txt-md {
+  align-items: flex-start;
+  margin: 0;
   }
 
-  txt-xs {
-    justify-content: center;
-    top: 30px;
-  }
-}
+txt-xs {
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  top: 100px;
+ }
 
 .container-logo {
   margin-left: auto;
   margin-right: auto;
-  width: 35em;
+  width: 23em;
 }
