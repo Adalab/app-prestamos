@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FarewellPage} from '../farewell/farewell';
 import { ModalPage} from '../modal/modal';
+import { ModalMerchantPage} from '../modal-merchant/modal-merchant';
 import { NavController, ModalController } from 'ionic-angular';
 
 @Component({
@@ -18,6 +19,11 @@ export class PersonalDataValidationPage {
 
   openModal() {
     const myModal = this.modal.create('ModalPage');
+    myModal.present();
+
+  }
+  openModalMerchant() {
+    const myModal = this.modal.create('ModalMerchantPage');
     myModal.present();
 
   }
