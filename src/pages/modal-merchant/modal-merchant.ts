@@ -8,7 +8,7 @@ import { IonicPage, NavParams, ViewController } from 'ionic-angular';
 })
 export class ModalMerchantPage {
 
-  constructor (private navParams: NavParams, private view: ViewController) {
+constructor (private navParams: NavParams, private view: ViewController) {
   }
 
   closeModalMerchant(){
