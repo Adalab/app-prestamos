@@ -1,15 +1,14 @@
 
 .container-modal-info {
   background-color: $secondary-color;
+  bottom: 5%;
+  height: 90%;
+  left: 5%;
   margin: 0;
   padding: 0;
+  right: 5%;
+  top: 5%;
   width: 100%;
-  width: 90%;
-    height: 90%;
-    top: 5%;
-    left: 5%;
-    right: 5%;
-    bottom: 5%;
 
   h2 {
     display: flex;
@@ -55,7 +54,8 @@
 
   .scroll-content {
     background-color: $secondary-color;
-    
+  }
+
   .ios-close {
     color: $footer-color;
     display: flex;
