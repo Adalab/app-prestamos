@@ -1,6 +1,7 @@
+
 .container-modal-lend {
   background-color: $secondary-color;
-  height: 30vh;
+  height: 50vh;
   width: 35vw;
 
   h2 p {
@@ -8,4 +9,36 @@
     justify-content: flex-start;
   }
 
+  .modal-wrapper {
+    border: 0;
+    bottom: 0;
+    box-shadow: none;
+    height: 100vh;
+    left: 50%;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    width: 50%;
+  }
+
+}
+
+.class-meet-btn {
+  display: flex;
+  width: 100%;
+
+  .btn-end {
+    align-items: center;
+    background-color: $secondary-color;
+    color: $footer-color;
+    height: 60px;
+    width: 50%;
+
+    &:hover {
+      background-color: $footer-color;
+      color: $secondary-color;
+    }
+  }
 }

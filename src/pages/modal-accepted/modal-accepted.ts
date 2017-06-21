@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { FarewellPage} from '../farewell/farewell';
+
+import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
 
 /**
  * Generated class for the ModalAcceptedPage page.
@@ -14,11 +16,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ModalAcceptedPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private view: ViewController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ModalAcceptedPage');
   }
-
+  closeModalAccepted(){
+  this.view.dismiss();
+  }
+  goToFarewellPage() {
+    this.navCtrl.push(FarewellPage)
+  }
 }

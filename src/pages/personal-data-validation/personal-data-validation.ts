@@ -14,10 +14,6 @@ export class PersonalDataValidationPage {
   constructor(private navCtrl: NavController, private modal: ModalController) {
   }
 
-  goToFarewellPage() {
-    this.navCtrl.push(FarewellPage)
-  }
-
   openModal() {
     const myModal = this.modal.create('ModalPage');
     myModal.present();

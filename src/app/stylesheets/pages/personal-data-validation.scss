@@ -1,8 +1,8 @@
 .avatar {
   align-items: center;
   border-radius: 3em;
-  height: 7vh;
-  width: 7vw;
+  width: 8vw;
+  height: 8vh;
 }
 
 .background-personal-data {
@@ -11,6 +11,7 @@
 
 .container-avatar {
   display: flex;
+  width: 100%;
 }
 
 .container-avatar-info {
@@ -30,11 +31,11 @@
 }
 
 .container-see-more-details {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   padding-left: 0.5em;
-  align-items: center;
 
   .button-md {
     background-color: $transparent;
@@ -83,16 +84,16 @@
     color: $info-color;
   }
 }
-
-.item-form-inline {
-  ion-icon {
-    width: 25%;
-}
-
-  div {
-    width: 50%;
-  }
-}
+//
+// .item-form-inline {
+//   ion-icon {
+//     width: 25%;
+// }
+//
+//   div {
+//     width: 50%;
+//   }
+// }
 
 .see-more-details {
   align-items: flex-end;
@@ -100,9 +101,19 @@
   justify-content: flex-end;
 }
 
-.ion-item-content{
+.ion-item-content {
   padding-left: 15px;
   padding-right: 15px;
+
+  .icon-check {
+    color: $footer-color;
+  }
+
+  .item-inner {
+    ion-icon{
+    font-size:2rem;
+    }
+  }
 }
 
 .ion-md-checkmark:before {
