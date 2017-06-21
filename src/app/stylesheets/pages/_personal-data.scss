@@ -21,20 +21,28 @@
   width: 50%;
 }
 
-.star-process {
+.start-process {
   display: flex;
-  flex-direction: row;
+  align-items: flex-start;
   width: 100%;
+  text-align: left;
 
   p {
-    width: 70%;
+    width: 100%;
   }
 
   ion-icon {
-    width: 30%;
+    width: 30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
   }
 }
 
 .title-new-process {
   margin-right: 100px;
+}
+
+.ion-item-content{
+  padding-left: 15px;
+  padding-right: 15px;
 }

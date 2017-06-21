@@ -9,16 +9,16 @@
 }
 
 
-txt-md {
+.txt-md {
   align-items: flex-start;
   margin: 0;
   }
 
-txt-xs {
+.txt-xs {
   justify-content: center;
-  margin: 0;
-  position: fixed;
-  top: 100px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 330px;
  }
 
 .container-logo {
