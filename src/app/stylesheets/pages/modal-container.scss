@@ -1,3 +1,15 @@
+.avatar-modal {
+  align-items: center;
+  border-radius: 3em;
+  display: flex;
+  height: 8vh;
+}
+
+.container-avatar-info {
+  align-items: center;
+  margin-top: 2em;
+  padding-left: 1em;
+}
 
 .container-modal-info {
   background-color: $secondary-color;

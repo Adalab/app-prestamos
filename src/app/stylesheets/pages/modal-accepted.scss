@@ -1,27 +1,30 @@
 
 .container-modal-lend {
   background-color: $secondary-color;
-  height: 50vh;
-  width: 35vw;
+  height: 30%;
+  width: 50%;
+  top: 50%;
 
   h2 p {
     display: flex;
     justify-content: flex-start;
   }
+}
+
+show-page{
 
   .modal-wrapper {
     border: 0;
     bottom: 0;
-    box-shadow: none;
-    height: 100vh;
-    left: 50%;
+    height: 30vh;
     margin: 0;
     overflow: hidden;
     position: absolute;
     right: 50%;
     top: 0;
-    width: 50%;
-  }
+    width: 30vw;
+    box-shadow: none;
+    }
 
 }
 
