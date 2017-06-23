@@ -28,4 +28,8 @@ export class PersonalDataValidationPage {
     const myModal = this.modal.create('ModalAcceptedPage');
     myModal.present();
   }
+
+  goToFarewellPage() {
+    this.navCtrl.push(FarewellPage)
+    }
 }
