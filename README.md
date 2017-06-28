@@ -1,5 +1,6 @@
 # App Prestamos
 
+![homepage](home.jpg)
 Mobile application and tablet for granting loans at points of sale.
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
